@@ -1,0 +1,75 @@
+# 안녕하세요
+# 주석이 무엇일까
+
+1)
+print("Hello Pyhton")
+print("안녕 파이썬")
+
+2)
+a=2000
+print(a)
+a = a + 20
+print(a)
+a = a - 1000
+print(a)
+
+3)
+a1 = 100
+a2 = 6.76
+a3 = "대박사건"
+print(a1)
+print(a2)
+print(a3)
+
+4)
+print( \ # \는 문장이 길 때 두줄로 표시하기 위한 것
+      "대박사건")
+print("대박",
+      "사건")
+a="철수"
+b="영희"
+c=a+b
+print(c)
+
+5)
+x = 100
+if x>0:
+  print("0보다 큽니다")
+  print("x=",x); print("대박") # 세미콜론 ; 은 두개이상 문장을 한 줄로 쓸 때 사용
+else:
+  print("0보다 작다")
+  print("헐~")
+  
+  
+6)
+  a1 = 7
+a2 = 10
+if a1>a2:
+  print("a1이 a2보다 크다")
+else:
+  print("a1이 a2보다 작거나 같다")
+  
+  
+7)
+  a="대박사건"
+print(a*3)
+b=7
+print(b**3)
+k=a=7
+print('k=',k ,'a=',a)
+a1, b1=7,8
+print('a1=', a1 , 'b1=', b1)
+a1, b1 = b1, a1
+print('a1=', a1 , 'b1=', b1)
+
+8)
+a1=a2=a3=15
+print('a1=', a1, ',' 'a2=', a2, ',' 'a3=', a3)
+b1, b2 = 23, 45
+print('b1=', b1, 'b2=', b2)
+b1, b2 = b2, b1
+print('b1=', b1, 'b2=', b2)
+print('허걱'*10)
+print(15//3) # 몫은 정수
+print(15/3) # 나누기 결과는 실수
+print(3**3)
